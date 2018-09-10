@@ -64,4 +64,6 @@ extern NSString *const kGPUImageColorSwizzlingFragmentShaderString;
 - (void)processAudioBuffer:(CMSampleBufferRef)audioBuffer;
 - (void)enableSynchronizationCallbacks;
 
+//added by George
+- (BOOL) isCurrentlyRecording;
 @end

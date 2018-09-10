@@ -1013,4 +1013,9 @@ NSString *const kGPUImageColorSwizzlingFragmentShaderString = SHADER_STRING
     return sout;
 }
 
+-(BOOL) isCurrentlyRecording
+{
+    return isRecording;
+}
+
 @end
